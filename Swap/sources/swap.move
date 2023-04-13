@@ -10,8 +10,8 @@ module SwapDeployer::AnimeSwapPoolV1f1 {
     use aptos_framework::timestamp;
     use aptos_framework::coin::{Self, Coin, MintCapability, FreezeCapability, BurnCapability};
     use aptos_framework::account::{Self, SignerCapability};
-    use u256::u256;
-    use uq64x64::uq64x64;
+    use u256v2::u256;
+    use uq64x64v2::uq64x64;
     // use std::debug;    // For debug
 
     /// pool data
